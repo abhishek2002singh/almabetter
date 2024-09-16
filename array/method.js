@@ -27,7 +27,7 @@
 
 // const arr = [1,2,3,4,5,6]
 // arr.shift()
-// console.log(arr)
+// // console.log(arr)
 // const a= arr.shift()
 // console.log(a)
 // console.log(arr)
@@ -36,6 +36,12 @@
 
 // use length method
 
-const arr = [1,2,3,5,6]
-const len = arr.length
+// const arr = [1,2,3,5,6]
+// const len = arr.length
+// console.log(len)
+
+
+const arr  = [1,23,4,5,6,7,8]
+const len = arr.unshift(2)
+console.log(arr)
 console.log(len)

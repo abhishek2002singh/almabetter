@@ -25,8 +25,8 @@
 
 // one()
 
-// a=10
-// console.log(a)   when use strict mode then he return referenceerror means a is not define
+a=10
+console.log(a)   //when use strict mode then he return referenceerror means a is not define
 
 // function one(){
 //     a=10

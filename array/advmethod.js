@@ -1,8 +1,9 @@
 //use slice method
 
-// const arr = [1,2,9,4,5,6]
+//const arr = [1,2,9,4,5,6]
 // const arra=arr.slice(2 ,4)
-// console.log(typeof(arra))
+// //  console.log(typeof(arra))
+// console.log(arra)
 
 // take only first element
 // const arra = arr.slice(2)
@@ -10,16 +11,16 @@
 
 //take only last element 
 
-// const arra= arr.slice(6)
+//  const arra= arr.slice(6)
 // console.log(arra)
 
 
 //use splice method 
 
-// const arr = [1,2,3,4,5,6]
-// const arra=arr.splice(2 ,2)
-// console.log(arra)//delete element are printed
-// console.log(arr)
+const arr = [1,2,3,4,5,6]
+const arra=arr.splice(2 ,2)
+console.log(arra)//delete element are printed
+console.log(arr)
 
 // const arr = [ 1,2,3,4,5,6,7]
 // const  arra = arr.splice(2,0,5 , 9 ,10)
